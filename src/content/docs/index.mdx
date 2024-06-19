@@ -1,0 +1,41 @@
+---
+title: Welcome to SupaStarter Native
+description: Get started building a React Native app with Supabase
+template: splash
+hero:
+  tagline: An extended starter template for React Native with Supabase, using all the good stuff like Expo, React Hook Form, Tanstack Query, Zustand, Valibot, Shadcn and more
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Getting Started
+      link: /guides/setup/
+      icon: right-arrow
+      variant: primary
+    - text: Check out the code
+      link: https://github.com/mrkshm/supastarter-native
+      icon: external
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Next steps
+
+<CardGrid stagger>
+  <a href="/reference/overview/">
+    <Card title="About this project" icon="add-document">
+        Read more about what SupaStarter Native is and what it aims to achieve.
+    </Card>
+
+  </a>
+  <a href="/guides/setup/">
+    <Card title="Getting started" icon="pencil">
+      Walk-through the steps to get set up with SupaStarter Native.
+    </Card>
+  </a>
+  {/* <Card title="Configure SupaStarter Native" icon="setting">
+    Learn how to configure i18n, analytics and more.
+  </Card>
+  <Card title="Where to find what" icon="open-book">
+    An overview of the project structure and where to find what.
+  </Card> */}
+</CardGrid>
