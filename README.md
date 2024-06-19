@@ -1,3 +1,3 @@
-# SupaStarter Native Docs
+# RN Launchpad Docs
 
-The documentation for SupaStarter Native
+The documentation for React Native Launchpad (feat. Supabast)

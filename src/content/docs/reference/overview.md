@@ -1,11 +1,11 @@
 ---
 title: An Overview
-description: A Detailled Description of SupaStarter Native
+description: A Detailled Description of RN Launchpad
 ---
 
 ## Goals
 
-SupaStarter Native aims to give React Native developers a starting point for experiments. Use it as a learning tool or for prototyping. It includes a complete auth flow (with email change and password reset), user profiles with Avatar and image upload, internationalisation, error logging and analytics. It uses free tools (or in the case of error reporting and analytics services with generous free tiers).
+RN Launchpad aims to give React Native developers a starting point for experiments. Use it as a learning tool or for prototyping. It includes a complete auth flow (with email change and password reset), user profiles with Avatar and image upload, internationalisation, error logging and analytics. It uses free tools (or in the case of error reporting and analytics services with generous free tiers).
 
 ## The Stack
 
