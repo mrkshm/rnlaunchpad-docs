@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "RNL - React Native Launchpad (feat. Supabase)",
+      title: "RN Launchpad (feat. Supabase)",
       customCss: ["./src/custom.css"],
       social: {
         github: "https://github.com/mrkshm/rnlaunchpad",
