@@ -13,8 +13,8 @@ If you haven't installed the Supabase CLI, you can do so with the following comm
 
 ## Clone the repo and install
 
-1. Clone this repo. `git clone https://github.com/mrkshm/supastarter-native.git`
-2. Move into the new folder. `cd supastarter-native`
+1. Clone this repo. `git clone https://github.com/mrkshm/rnlaunchpad.git`
+2. Move into the new folder. `cd rnlaunchpad`
 3. Install the dependencies. `npm install`
 4. Rename `example.env` to `.env`.
 
