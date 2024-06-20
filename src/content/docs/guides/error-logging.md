@@ -13,4 +13,5 @@ Out of the box, errors will be logged to the console. To set up BugSnag, follow 
 4. Enter your Api Key (on your Bugsnag Project Dashboard).
 5. Answer `No` when the CLI asks you to add code to `App.js` (which does not exist in this project).
 6. If you want to upload source maps automatically, answer `yes`, otherwise `no`. You can always upload source maps later manually, or rerun the script if you change your mind.
-7. You can use Bugsnag by importing `import { reportError } from "~/lib/report-error";` and then use reportError like so `reportError(someError)`.
+7. In your .env file, set EXPO_PUBLIC_ENABLE_ERROR_REPORTING to true: `EXPO_PUBLIC_ENABLE_ERROR_REPORTING=true`.
+8. You can use Bugsnag by importing `import { reportError } from "~/lib/report-error";` and then use reportError like so `reportError(someError)`.

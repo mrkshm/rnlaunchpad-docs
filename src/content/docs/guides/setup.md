@@ -17,6 +17,7 @@ If you haven't installed the Supabase CLI, you can do so with the following comm
 2. Move into the new folder. `cd rnlaunchpad`
 3. Install the dependencies. `npm install`
 4. Rename `example.env` to `.env`.
+5. In this .env file, set `IOS_BUNDLE_IDENTIFIER` and `ANDROID_PACKAGE_NAME` to your desired values.
 
 ## Set up SupaBase
 
