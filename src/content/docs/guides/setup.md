@@ -35,7 +35,8 @@ If you haven't installed the Supabase CLI, you can do so with the following comm
    `<p>Please enter the following code in the activation screen<p>`  
    `<p>{{ .Token }}</p>`.  
    ![Screenshot for email templates](../../../assets/email_template.webp)
-8. Link your local project with the Supabase project. `supabase link`, then choose the project you just created.  
+8. In Supabase, navigate to Authentication -> Providers -> Email and deselect *Secure Email Change*.
+9. Link your local project with the Supabase project. `supabase link`, then choose the project you just created.  
    ![Screenshot for linking local project to Supabase](../../../assets/supabase_link.webp)
-9. Before pushing the migrations, you may want to add fields to `public.user_profiles`. You can do so in `/supabase/migrations/20240527074130_initial_migration.sql`.
-10. Push the migrations (`supabase db push`). When asked if you want to push the migrations, confirm by pressing `Y`.
+10. Before pushing the migrations, you may want to add fields to `public.user_profiles`. You can do so in `/supabase/migrations/20240527074130_initial_migration.sql`.
+11. Push the migrations (`supabase db push`). When asked if you want to push the migrations, confirm by pressing `Y`.
